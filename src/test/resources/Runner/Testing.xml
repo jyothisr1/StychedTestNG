@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+    <listeners>
+        <listener class-name="com.automation.listerner.ExtentReportListerner"/>
+    </listeners>
+    <test name="Test1">
+        <classes>
+            <class name="com.automation.test.AddToCartTest"/>
+        </classes>
+    </test>
+    <!-- Add more tests as needed -->
+</suite>
